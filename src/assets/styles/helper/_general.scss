@@ -1,0 +1,55 @@
+@import '../variables';
+html, body {
+    height: 100%;
+}
+body {
+    font-family: $font-family-base;   
+    font-weight: $font-weight-medium;
+    line-height: 1.2;
+    background: $white;
+    font-size: $font-size-large;
+}
+// it should be handled by normalize.css that imported.
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.page {
+    padding: $page-space-30 $page-space-20;
+    flex: 1;
+}
+
+.title {
+    padding-bottom: $page-space-30;
+    color: $dark-gray;
+    font-size: $font-size-heading;
+    margin: 0;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: $light-gray;
+    font-size: $font-size-large;
+    font-family: $font-family-base;   
+    font-weight: $font-weight-medium;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $light-gray;
+    font-size: $font-size-large;
+    font-family: $font-family-base;   
+    font-weight: $font-weight-medium;
+  }
+  
+  ::placeholder {
+    color: $light-gray;
+    font-size: $font-size-large;
+    font-family: $font-family-base;   
+    font-weight: $font-weight-medium;
+  }

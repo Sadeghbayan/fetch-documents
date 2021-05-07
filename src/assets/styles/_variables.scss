@@ -1,0 +1,48 @@
+// colors
+$black: #000000;
+$gray: #E0E0E0;
+$silver: #E4E4E4;
+$dark-gray: #464646;
+$dareker-gray: #5E5E5E;
+$light-gray: #D2D2D2;
+$light-silver: #D8D8D8;
+$white: #ffffff;
+$dark-blue: #001C7B;
+$dark-blue-lighter: #2D4596;
+$orange: #EAAC4C;
+$red: red;
+$dim-gray: #4E4E4E;
+// breakpoints
+$grid-breakpoints: (
+  xxs: 0,
+  xs: 320px,
+  sm: 576px,
+  md: 728px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1680px,
+  xxxl: 1920px
+) !default;
+
+$page-space-5: 5px;
+$page-space-10: 10px;
+$page-space-15: 15px;
+$page-space-20: 20px;
+$page-space-30: 30px;
+
+// radius
+$border-radius-default: 5px;
+
+//fonts adjustment
+//font-family which imported in font.scss
+$font-family-links: 'Verdana', sans-serif;
+$font-family-base: 'Roboto', sans-serif;
+
+$font-weight-normal:          400;
+$font-weight-medium:            500;
+
+$font-size-large:       14px;
+$font-size-small:       12px;
+$font-size-heading:       18px;
+
+$default-boxshadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
