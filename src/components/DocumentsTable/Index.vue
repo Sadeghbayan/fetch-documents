@@ -4,18 +4,10 @@
       :data="documents"
       :currentPage="pagaintion.currentPage"
       :itemsPerPage="pagaintion.itemsPerPage"
-      @name-clicked="sortByName"
-      @date-clicked="sortByDate"
     />
-    <!-- these are extras -->
-    <!-- @name-clicked="sortByName" -->
-    <!-- @date-clicked="sortByDate" -->
-    <!-- :handlePagination="handlePagination" for paginatioan -->
-    <!-- commnet -->
     <Paginations
       :currentPage="pagaintion.currentPage"
       :totalOfPages="documents.length"
-      :handlePagination="handlePagination"
     />
   </section>
 </template>
