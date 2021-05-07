@@ -13,7 +13,7 @@
           <ul>
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/documents">Documents</router-link></li>
-            <li><router-link to="/contacts">Contacts</router-link></li>
+            <li><router-link to="/">Contacts</router-link></li>
           </ul>
         </nav>
         <div class="header__links--user">

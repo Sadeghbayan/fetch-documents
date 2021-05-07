@@ -1,5 +1,5 @@
 <template>
-  <main class="container">
+  <main class="page">
     <h4>PAGE NOT FOUND</h4>
   </main>
 </template>
